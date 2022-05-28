@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.min.css">
+  <link rel="icon" href="devchallenges.png">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+  <title>Checkout Page</title>
+</head>
+<body>
+  <header>
+    <h3>Checkout</h3>
+  </header>
+  <main>
+    <div class="container-1">
+      <div class="item-1">
+        <img src="photo1.png" class="product" alt="an image" width="175" height="135">
+        <div>
+          <p class="product-name">Vintage Backbag</p>
+          <span class="price">$54.99</span> <del class="crossed-off">$94.99</del>
+
+          <div class="number">
+            <img src="remove.svg" alt="an image" width="30" height="20">
+            <span></span>
+            <img src="add.svg" alt="an image" width="30" height="20">
+          </div>
+        </div>
+      </div>
+
+      <div class="item-2">
+        <img src="photo2.png" class="product" alt="an image" width="175" height="135">
+        <div>
+          <p class="product-name">Levi Shoes</p>
+          <span class="price">$74.99</span> <del class="crossed-off">$124.99</del>
+          <div class="number">
+            <img src="remove.svg" alt="an image" width="30" height="20">
+            <span></span>
+            <img src="add.svg" alt="an image" width="30" height="20">
+          </div>
+        </div>
+      </div>
+      <div class="write">
+        <span>Shipping</span>
+        <span>$19</span>
+      </div>
+      <div class="write">
+        <span>Total</span>
+        <span>$148.98</span>
+      </div>
+
+    </div>
+
+    <div class="container-2">
+      <p class="head">Contact Information</p>
+      <form>
+        <label for="Email">Email</label>
+        <input type="email" name="email" value="&#128231; Enter your email...">
+
+        <label for="phone">Phone</label>
+        <input type="tel" name="phone" value="&#x260E; Enter your phone...">
+      </form>
+
+      <p class="head">Shipping address</p>
+      <form>
+        <label for="name">Full name</label>
+        <input type="text" name="name" value="Rodney Cotton">
+
+        <label for="address">Address</label>
+        <input type="text" name="address" value="Your address...">
+
+        <label for="city">City</label>
+        <input type="text" name="city" value="Your city...">
+
+        <label for="country">Country</label>
+        <select name="country" value="Your country...">
+          <option value="USA">U.S.A</option>
+          <option value="Nigeria">Nigeria</option>
+        </select>
+
+        <label for="postal-code">Postal Code</label>
+        <input type="text" name="postal-code" value="Your postal code...">
+
+        <input type="checkbox" name="check" value="">Save this Information for next time
+
+        <button type="button" name="button">Continue</button>
+      </form>
+    </div>
+  </main>
+
+  <footer>
+    <p>Created by <a href="">PreciousCode</a>-devchallenges.io</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,32 @@
+$color-one: #FFFFFF;
+$color-two: #828282;
+
+
+button{
+  padding-inline-start: 30px;
+  padding-inline-end: 30px;
+  padding-block-start: 15px;
+  padding-block-end: 15px;
+  color: $color-one;
+  border-radius: 9px;
+  border: none;
+  background-color: #F2994A;
+}
+
+input{
+  display: block;
+  padding: 10px;
+  color: $color-two;
+  font-size: 16px;
+  border-radius: 10px;
+  margin-block-end: 10px;
+  inline-size: 100%;
+}
+
+label{
+  display: block;
+  margin-block-end: 5px;
+  font-size: 12px;
+  color: #4F4F4F;
+  font-weight: bold;
+}
