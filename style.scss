@@ -16,6 +16,17 @@ body{
   font-family: 'Montserrat', sans-serif;
 }
 
+footer{
+  text-align: center;
+  color: #BDBDBD;
+  font-size: 12px;
+
+  a{
+    text-decoration: none;
+    font-size: 10px;
+  }
+}
+
 main{
 
   .container-1{
@@ -66,17 +77,28 @@ main{
     margin-block-start: 50px;
     margin-block-end: 20px;
   }
-}
 
-footer{
-  text-align: center;
-  color: #BDBDBD;
-  font-size: 12px;
+  .number{
+    display: flex;
+    justify-content: space-between;
+    margin-block-start: 20px;
+    border: 1px solid #828282;
+    border-radius: 10px;
+    padding: 10px;
 
-  a{
-    text-decoration: none;
-    font-size: 10px;
+    .img{
+      background-color: #E0E0E0;
+      inline-size: 20px;
+      block-size: 20px;
+      border-radius: 5px;
+    }
+
+    span{
+      font-size: 12px;
+      font-weight: bold;
+    }
   }
+
 }
 
 .write{
@@ -87,4 +109,13 @@ footer{
   margin-bottom: 10px;
   font-weight: bold;
   font-size: 16px;
+}
+
+.head{
+  font-weight: bolder;
+  font-size: 12px;
+}
+
+.checkbox{
+  display: inline;
 }

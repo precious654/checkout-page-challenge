@@ -11,7 +11,7 @@
 </head>
 <body>
   <header>
-    <h3>Checkout</h3>
+    <h1>Checkout</h1>
   </header>
   <main>
     <div class="container-1">
@@ -22,9 +22,13 @@
           <span class="price">$54.99</span> <del class="crossed-off">$94.99</del>
 
           <div class="number">
-            <img src="remove.svg" alt="an image" width="30" height="20">
-            <span></span>
-            <img src="add.svg" alt="an image" width="30" height="20">
+            <div class="img">
+              <img src="remove.svg" alt="an image" width="30" height="20">
+            </div>
+            <span>1</span>
+            <div class="img">
+              <img src="add.svg" alt="an image" width="30" height="20">
+            </div>
           </div>
         </div>
       </div>
@@ -35,9 +39,13 @@
           <p class="product-name">Levi Shoes</p>
           <span class="price">$74.99</span> <del class="crossed-off">$124.99</del>
           <div class="number">
-            <img src="remove.svg" alt="an image" width="30" height="20">
-            <span></span>
-            <img src="add.svg" alt="an image" width="30" height="20">
+            <div class="img">
+              <img src="remove.svg" alt="an image" width="30" height="20">
+            </div>
+            <span>1</span>
+            <div class="img">
+              <img src="add.svg" alt="an image" width="30" height="20">
+            </div>
           </div>
         </div>
       </div>
@@ -49,7 +57,6 @@
         <span>Total</span>
         <span>$148.98</span>
       </div>
-
     </div>
 
     <div class="container-2">
@@ -79,10 +86,12 @@
           <option value="Nigeria">Nigeria</option>
         </select>
 
-        <label for="postal-code">Postal Code</label>
-        <input type="text" name="postal-code" value="Your postal code...">
+        <div>
+          <label for="postal-code">Postal Code</label>
+          <input type="text" name="postal-code" value="Your postal code...">
+        </div>
 
-        <input type="checkbox" name="check" value="">Save this Information for next time
+        <input type="checkbox" name="check" value="" class="checkbox">Save this Information for next time
 
         <button type="button" name="button">Continue</button>
       </form>
