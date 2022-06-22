@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">{Your project name}</h1>
+<h1 align="center">Checkout Page</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -42,15 +42,16 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
 
 - Where can I see your demo?
 - What was your experience?
-- What have you learned/improved?
-- Your wisdom? :)
+. It was a nice but stressful experience, the inputs really took me time to get right
+- What have you learned/improved? I have improved my knowledge on forms
+- Your wisdom? :) Review a lot of different codes and attempt challenges, when you feel stuck go back to the fundamentals
 
 ### Built With
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
-- [React](https://reactjs.org/)
-- [Vue.js](https://vuejs.org/)
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [SCSS](https://sass-lang.com/)
 - [Tailwind](https://tailwindcss.com/)
 
 ## Features
@@ -80,11 +81,10 @@ $ npm start
 <!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For exmpale -->
 
 - [Steps to replicate a design with only HTML and CSS](https://devchallenges-blogs.web.app/how-to-replicate-design/)
-- [Node.js](https://nodejs.org/)
+- [SCSS](https://sass-lang.com/)
 - [Marked - a markdown parser](https://github.com/chjj/marked)
 
 ## Contact
 
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/your-usermame})
-- Twitter [@your-twitter](https://{twitter.com/your-username})
+- GitHub [@precious654](https://github.com/precious654)
+- Twitter [@sacredshott](https://twitter.com/sacredshott)
