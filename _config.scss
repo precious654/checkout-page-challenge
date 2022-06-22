@@ -14,13 +14,13 @@ button{
 }
 
 input{
-  display: block;
+  inline-size: 100%;
   padding: 10px;
   color: $color-two;
   font-size: 16px;
   border-radius: 10px;
   margin-block-end: 10px;
-  inline-size: 375px;
+  inline-size: 100%;
 }
 
 label{
@@ -29,4 +29,13 @@ label{
   font-size: 12px;
   color: #4F4F4F;
   font-weight: bold;
+}
+
+.block{
+  display: block;
+}
+
+img{
+  max-inline-size: 100%;
+  block-size: auto;
 }

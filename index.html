@@ -63,35 +63,75 @@
       <p class="head">Contact Information</p>
       <form>
         <label for="Email">Email</label>
-        <input type="email" name="email" value="&#128231; Enter your email...">
+        <div class="input">
+          <span class="icon">
+            <img src="email_black_24dp.svg" alt="email_black">
+          </span>
+          <input type="email" name="email"  value="Enter your email...">
+        </div>
 
         <label for="phone">Phone</label>
-        <input type="tel" name="phone" value="&#x260E; Enter your phone...">
+        <div class="input">
+          <span class="icon">
+            <img src="phone_black_24dp.svg" alt="phone_black">
+          </span>
+          <input type="tel" name="phone" value="Enter your phone...">
+        </div>
       </form>
 
       <p class="head">Shipping address</p>
       <form>
         <label for="name">Full name</label>
-        <input type="text" name="name" value="Rodney Cotton">
-
-        <label for="address">Address</label>
-        <input type="text" name="address" value="Your address...">
-
-        <label for="city">City</label>
-        <input type="text" name="city" value="Your city...">
-
-        <label for="country">Country</label>
-        <select name="country" value="Your country...">
-          <option value="USA">U.S.A</option>
-          <option value="Nigeria">Nigeria</option>
-        </select>
-
-        <div>
-          <label for="postal-code">Postal Code</label>
-          <input type="text" name="postal-code" value="Your postal code...">
+        <div class="input">
+          <span class="icon">
+            <img src="account_circle_black_24dp.svg" alt="account_black">
+          </span>
+          <input type="text" name="name"  value="Rodney Cotton">
         </div>
 
-        <input type="checkbox" name="check" value="" class="checkbox">Save this Information for next time
+        <label for="address">Address</label>
+        <div class="input">
+          <span class="icon">
+            <img src="home_black_24dp.svg" alt="home_black">
+          </span>
+          <input type="text" name="address" value="Your address...">
+        </div>
+
+        <label for="city">City</label>
+        <div class="input">
+          <span class="icon">
+            <img src="location_city_black_24dp.svg" alt="city_black">
+          </span>
+          <input type="text" name="city" value="Your city...">
+        </div>
+
+        <div class="something">
+          <div>
+            <label for="country">Country</label>
+            <div class="input select">
+              <span class="icon">
+                <img src="public_black_24dp.svg" alt="public_black">
+              </span>
+              <select class="country-select" autocomplete="country"  name="country" value="Your country...">
+                <option value="USA">U.S.A</option>
+                <option value="Nigeria">Nigeria</option>
+              </select>
+            </div>
+          </div>
+
+          <div>
+            <label for="postal-code">Postal Code</label>
+            <div class="input">
+              <span class="icon">
+                <img src="markunread_mailbox_black_24dp.svg" alt="phone_black">
+              </span>
+              <input type="text" name="postal-code" value="Your postal code...">
+            </div>
+
+          </div>
+        </div>
+        <input type="checkbox" name="check" value="" class="checkbox"><small>Save this information for next time</small>
+
 
         <button type="button" name="button">Continue</button>
       </form>
