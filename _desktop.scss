@@ -8,20 +8,30 @@
   main{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 3rem;
+    grid-gap: 5rem;
 
     .container-2{
       grid-column: 1/2;
       grid-row: 1/2;
-      padding: 20px;
-      border: 1px solid red;
       margin-inline-start: 250px;
+
+      .button{
+        margin-inline-start: 380px;
+      }
+
+      .something{
+        justify-content: space-between;
+      }
+
+      .input.select{
+        inline-size: 200px;
+      }
     }
 
     .container-1{
       inline-size: 383px;
       block-size: 535px;
-      margin-block-start: 100px;
+      margin-block-start: 30px;
 
       .item-2{
         margin-block-end: 30px;

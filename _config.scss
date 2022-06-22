@@ -3,6 +3,7 @@ $color-two: #828282;
 
 
 button{
+  display: block;
   padding-inline-start: 30px;
   padding-inline-end: 30px;
   padding-block-start: 15px;
@@ -13,14 +14,13 @@ button{
   background-color: #F2994A;
 }
 
-input{
+.input-box{
   inline-size: 100%;
   padding: 10px;
   color: $color-two;
   font-size: 16px;
   border-radius: 10px;
   margin-block-end: 10px;
-  inline-size: 100%;
 }
 
 label{

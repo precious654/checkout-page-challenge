@@ -20,4 +20,21 @@
       margin-block-start: 40px;
   }
 
+  .container-2{
+    inline-size: 370px;
+    margin-inline-start: 10px;
+
+    .button{
+      margin-inline-start: 255px;
+    }
+
+    .input.select{
+      inline-size: 150px;
+    }
+
+    .something{
+      gap: 2rem;
+    }
+  }
+
 }

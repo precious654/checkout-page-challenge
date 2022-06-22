@@ -105,7 +105,7 @@ footer{
       color: #333333;
       font-weight: bold;
       font-size: 15px;
-      margin-block-start: 50px;
+      margin-block-start: 20px;
       margin-block-end: 20px;
     }
 
@@ -121,7 +121,6 @@ footer{
 
     .something{
       display: flex;
-      justify-content: space-between;
     }
 
     .input{
@@ -131,7 +130,6 @@ footer{
 
     .input.select{
       position: relative;
-      inline-size: 200px;
     }
 
     .input.select::after {
@@ -153,4 +151,23 @@ footer{
       left: 10px;
       margin-inline-end: 3rem;
     }
+
+    .flex{
+      display: flex;
+    }
+
+    .check{
+      display: flex;
+      gap: 0.5rem;
+    }
+
+    .validation-message {
+      display: block;
+      padding-top: 0;
+      color: red;
+      position: relative;
+      top: -10px;
+      font-size: .7rem;
+    }
+
   }

@@ -67,15 +67,16 @@
           <span class="icon">
             <img src="email_black_24dp.svg" alt="email_black">
           </span>
-          <input type="email" name="email"  value="Enter your email...">
+          <input type="email" class="input-box value" c placeholder="Enter your email...">
         </div>
+
 
         <label for="phone">Phone</label>
         <div class="input">
           <span class="icon">
             <img src="phone_black_24dp.svg" alt="phone_black">
           </span>
-          <input type="tel" name="phone" value="Enter your phone...">
+          <input type="tel" name="phone" class="input-box" value="Enter your phone...">
         </div>
       </form>
 
@@ -86,7 +87,7 @@
           <span class="icon">
             <img src="account_circle_black_24dp.svg" alt="account_black">
           </span>
-          <input type="text" name="name"  value="Rodney Cotton">
+          <input type="text" name="name" class="input-box" value="Rodney Cotton">
         </div>
 
         <label for="address">Address</label>
@@ -94,7 +95,7 @@
           <span class="icon">
             <img src="home_black_24dp.svg" alt="home_black">
           </span>
-          <input type="text" name="address" value="Your address...">
+          <input type="text" name="address" class="input-box" value="Your address...">
         </div>
 
         <label for="city">City</label>
@@ -102,7 +103,7 @@
           <span class="icon">
             <img src="location_city_black_24dp.svg" alt="city_black">
           </span>
-          <input type="text" name="city" value="Your city...">
+          <input type="text" name="city" class="input-box" value="Your city...">
         </div>
 
         <div class="something">
@@ -125,15 +126,18 @@
               <span class="icon">
                 <img src="markunread_mailbox_black_24dp.svg" alt="phone_black">
               </span>
-              <input type="text" name="postal-code" value="Your postal code...">
+              <input type="text" name="postal-code" class="input-box" value="Your postal code...">
             </div>
-
           </div>
         </div>
-        <input type="checkbox" name="check" value="" class="checkbox"><small>Save this information for next time</small>
+
+        <div class="check">
+          <input type="checkbox" name="confirm" id="confirm" class="check">
+          <label for="confirm" class="label label-check">Save this information for next time</label>
+        </div>
 
 
-        <button type="button" name="button">Continue</button>
+        <button type="button" class="button" name="button">Continue</button>
       </form>
     </div>
   </main>
