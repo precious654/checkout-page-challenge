@@ -42,9 +42,11 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
 
 - Where can I see your demo?
 - What was your experience?
-. It was a nice but stressful experience, the inputs really took me time to get right
-- What have you learned/improved? I have improved my knowledge on forms
-- Your wisdom? :) Review a lot of different codes and attempt challenges, when you feel stuck go back to the fundamentals
+- It was a nice but stressful experience, the inputs really took me time to get right
+- What have you learned/improved?
+- I have improved my knowledge on forms
+- Your wisdom? :)
+- Review a lot of different codes and attempt challenges, when you feel stuck go back to the fundamentals
 
 ### Built With
 
