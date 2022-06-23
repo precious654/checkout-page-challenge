@@ -17,8 +17,9 @@ button{
 .input-box{
   inline-size: 100%;
   padding: 10px;
+  padding-inline-start: 50px;
   color: $color-two;
-  font-size: 16px;
+  font-size: 14px;
   border-radius: 10px;
   margin-block-end: 10px;
 }
