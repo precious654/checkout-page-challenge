@@ -54,7 +54,6 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
 
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 - [SCSS](https://sass-lang.com/)
-- [Tailwind](https://tailwindcss.com/)
 
 ## Features
 
